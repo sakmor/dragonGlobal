@@ -15,12 +15,11 @@ public class main : MonoBehaviour
     void Start()
     {
         host = GameObject.Find("host").GetComponent<host>();
-        GameObject player01 = GameObject.Find("player01");
-        cardA = player01.transform.Find("cardLeft").gameObject;
-        cardB = player01.transform.Find("cardRight").gameObject;
-        cardsSprite = Resources.LoadAll<Sprite>(@"poker");
-
-
+        // GameObject player01 = GameObject.Find("player01");
+        // cardA = player01.transform.Find("cardLeft").gameObject;
+        // cardB = player01.transform.Find("cardRight").gameObject;
+        // cardsSprite = Resources.LoadAll<Sprite>(@"poker");
+        // cardA.GetComponent<SpriteRenderer>().sprite = cardsSprite[1];
     }
 
     // Update is called once per frame
@@ -44,10 +43,7 @@ public class main : MonoBehaviour
             }
         }
     }
-    void sendHost(int n)
-    {
-        host.message = n;
-    }
+
 
     void displayCard()
     {
@@ -65,7 +61,6 @@ public class main : MonoBehaviour
     {
         if (Input.GetKeyUp("space"))
         {
-            sendHost(101);
             if (cardLeft != message)
                 displayCard();
         }
