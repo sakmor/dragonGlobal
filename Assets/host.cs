@@ -1,6 +1,5 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
-using System.Timers;
 using UnityEngine;
 
 //waitcode
@@ -16,7 +15,7 @@ using UnityEngine;
 public class host : MonoBehaviour
 {
     List<handCards> playersCard = new List<handCards>();
-    int randomNum, playerNum;
+    int randomNum, playerNum, nowturn;
     List<int> cardLibrary = new List<int>();
     main main;
     void Start()
@@ -25,7 +24,8 @@ public class host : MonoBehaviour
         createCardsSingle();
         shuffleCards();
         dealCard(playerNum);
-        displayPlayerHandsCard();
+
+        // displayPlayerHandsCard();
     }
 
     // Update is called once per frame

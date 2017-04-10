@@ -1,0 +1,1316 @@
+fileFormatVersion: 2
+guid: 56ce3d9280f9ce04eb41cba7c97b1c74
+timeCreated: 1491836909
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: face_avatars_full_0
+    21300002: face_avatars_full_1
+    21300004: face_avatars_full_2
+    21300006: face_avatars_full_3
+    21300008: face_avatars_full_4
+    21300010: face_avatars_full_5
+    21300012: face_avatars_full_6
+    21300014: face_avatars_full_7
+    21300016: face_avatars_full_8
+    21300018: face_avatars_full_9
+    21300020: face_avatars_full_10
+    21300022: face_avatars_full_11
+    21300024: face_avatars_full_12
+    21300026: face_avatars_full_13
+    21300028: face_avatars_full_14
+    21300030: face_avatars_full_15
+    21300032: face_avatars_full_16
+    21300034: face_avatars_full_17
+    21300036: face_avatars_full_18
+    21300038: face_avatars_full_19
+    21300040: face_avatars_full_20
+    21300042: face_avatars_full_21
+    21300044: face_avatars_full_22
+    21300046: face_avatars_full_23
+    21300048: face_avatars_full_24
+    21300050: face_avatars_full_25
+    21300052: face_avatars_full_26
+    21300054: face_avatars_full_27
+    21300056: face_avatars_full_28
+    21300058: face_avatars_full_29
+    21300060: face_avatars_full_30
+    21300062: face_avatars_full_31
+    21300064: face_avatars_full_32
+    21300066: face_avatars_full_33
+    21300068: face_avatars_full_34
+    21300070: face_avatars_full_35
+    21300072: face_avatars_full_36
+    21300074: face_avatars_full_37
+    21300076: face_avatars_full_38
+    21300078: face_avatars_full_39
+    21300080: face_avatars_full_40
+    21300082: face_avatars_full_41
+    21300084: face_avatars_full_42
+    21300086: face_avatars_full_43
+    21300088: face_avatars_full_44
+    21300090: face_avatars_full_45
+    21300092: face_avatars_full_46
+    21300094: face_avatars_full_47
+    21300096: face_avatars_full_48
+    21300098: face_avatars_full_49
+    21300100: face_avatars_full_50
+    21300102: face_avatars_full_51
+    21300104: face_avatars_full_52
+    21300106: face_avatars_full_53
+    21300108: face_avatars_full_54
+    21300110: face_avatars_full_55
+    21300112: face_avatars_full_56
+    21300114: face_avatars_full_57
+    21300116: face_avatars_full_58
+    21300118: face_avatars_full_59
+    21300120: face_avatars_full_60
+    21300122: face_avatars_full_61
+    21300124: face_avatars_full_62
+    21300126: face_avatars_full_63
+    21300128: face_avatars_full_64
+    21300130: face_avatars_full_65
+    21300132: face_avatars_full_66
+    21300134: face_avatars_full_67
+    21300136: face_avatars_full_68
+    21300138: face_avatars_full_69
+    21300140: face_avatars_full_70
+    21300142: face_avatars_full_71
+    21300144: face_avatars_full_72
+    21300146: face_avatars_full_73
+    21300148: face_avatars_full_74
+    21300150: face_avatars_full_75
+    21300152: face_avatars_full_76
+    21300154: face_avatars_full_77
+    21300156: face_avatars_full_78
+    21300158: face_avatars_full_79
+    21300160: face_avatars_full_80
+    21300162: face_avatars_full_81
+    21300164: face_avatars_full_82
+    21300166: face_avatars_full_83
+    21300168: face_avatars_full_84
+    21300170: face_avatars_full_85
+    21300172: face_avatars_full_86
+    21300174: face_avatars_full_87
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: WebGL
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: face_avatars_full_0
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 745
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: face_avatars_full_1
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 745
+        width: 60
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: face_avatars_full_2
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 745
+        width: 48
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: face_avatars_full_3
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 745
+        width: 60
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: face_avatars_full_4
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 745
+        width: 50
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: face_avatars_full_5
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 745
+        width: 48
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: face_avatars_full_6
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 745
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: face_avatars_full_7
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 745
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: face_avatars_full_8
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 671
+        width: 54
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: face_avatars_full_9
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 671
+        width: 54
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: face_avatars_full_10
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 671
+        width: 54
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: face_avatars_full_11
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 671
+        width: 54
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: face_avatars_full_12
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 671
+        width: 54
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: face_avatars_full_13
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 671
+        width: 58
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: face_avatars_full_14
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 671
+        width: 58
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: face_avatars_full_15
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 671
+        width: 58
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: face_avatars_full_16
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 597
+        width: 58
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: face_avatars_full_17
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 597
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: face_avatars_full_18
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 597
+        width: 58
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: face_avatars_full_19
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 597
+        width: 58
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: face_avatars_full_20
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 597
+        width: 58
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: face_avatars_full_21
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 597
+        width: 58
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: face_avatars_full_22
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 597
+        width: 58
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: face_avatars_full_23
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 597
+        width: 58
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: face_avatars_full_24
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 523
+        width: 48
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: face_avatars_full_25
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 523
+        width: 54
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: face_avatars_full_26
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 523
+        width: 54
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: face_avatars_full_27
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 523
+        width: 58
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: face_avatars_full_28
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 523
+        width: 54
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: face_avatars_full_29
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 523
+        width: 46
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: face_avatars_full_30
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 523
+        width: 58
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: face_avatars_full_31
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 523
+        width: 58
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: face_avatars_full_32
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 449
+        width: 54
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: face_avatars_full_33
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 449
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: face_avatars_full_34
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 449
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: face_avatars_full_35
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 449
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: face_avatars_full_36
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 449
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: face_avatars_full_37
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 449
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: face_avatars_full_38
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 449
+        width: 58
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: face_avatars_full_39
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 449
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: face_avatars_full_40
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 375
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: face_avatars_full_41
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 375
+        width: 60
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: face_avatars_full_42
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 375
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: face_avatars_full_43
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 375
+        width: 58
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: face_avatars_full_44
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 375
+        width: 58
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: face_avatars_full_45
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 375
+        width: 58
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: face_avatars_full_46
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 375
+        width: 58
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: face_avatars_full_47
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 375
+        width: 54
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: face_avatars_full_48
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 301
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: face_avatars_full_49
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 302
+        width: 44
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: face_avatars_full_50
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 301
+        width: 54
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: face_avatars_full_51
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 302
+        width: 54
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: face_avatars_full_52
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 301
+        width: 58
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: face_avatars_full_53
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 302
+        width: 54
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: face_avatars_full_54
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 302
+        width: 54
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: face_avatars_full_55
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 301
+        width: 46
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: face_avatars_full_56
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 227
+        width: 46
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: face_avatars_full_57
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 227
+        width: 52
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: face_avatars_full_58
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 227
+        width: 52
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: face_avatars_full_59
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 227
+        width: 46
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: face_avatars_full_60
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 227
+        width: 52
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: face_avatars_full_61
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 227
+        width: 52
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: face_avatars_full_62
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 228
+        width: 44
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: face_avatars_full_63
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 227
+        width: 52
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: face_avatars_full_64
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 153
+        width: 52
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: face_avatars_full_65
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 153
+        width: 52
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: face_avatars_full_66
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 153
+        width: 60
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: face_avatars_full_67
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 153
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: face_avatars_full_68
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 153
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: face_avatars_full_69
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 153
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: face_avatars_full_70
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 153
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: face_avatars_full_71
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 153
+        width: 54
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: face_avatars_full_72
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 79
+        width: 54
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: face_avatars_full_73
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 79
+        width: 54
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: face_avatars_full_74
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 79
+        width: 54
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: face_avatars_full_75
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 79
+        width: 54
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: face_avatars_full_76
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 79
+        width: 54
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: face_avatars_full_77
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 79
+        width: 54
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: face_avatars_full_78
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 79
+        width: 62
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: face_avatars_full_79
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 79
+        width: 58
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: face_avatars_full_80
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 5
+        width: 58
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: face_avatars_full_81
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 5
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: face_avatars_full_82
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 5
+        width: 58
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: face_avatars_full_83
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 5
+        width: 52
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: face_avatars_full_84
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 5
+        width: 58
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: face_avatars_full_85
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 5
+        width: 58
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: face_avatars_full_86
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 5
+        width: 58
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: face_avatars_full_87
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 5
+        width: 58
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

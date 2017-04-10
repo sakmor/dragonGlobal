@@ -14,37 +14,14 @@ public class main : MonoBehaviour
     // Use this for initialization
     void Start()
     {
-        host = GameObject.Find("host").GetComponent<host>();
-        // GameObject player01 = GameObject.Find("player01");
-        // cardA = player01.transform.Find("cardLeft").gameObject;
-        // cardB = player01.transform.Find("cardRight").gameObject;
-        // cardsSprite = Resources.LoadAll<Sprite>(@"poker");
-        // cardA.GetComponent<SpriteRenderer>().sprite = cardsSprite[1];
+        // host = GameObject.Find("host").GetComponent<host>();
     }
 
     // Update is called once per frame
     void Update()
     {
         contorl();
-        receiveHost();
     }
-    //waitcode
-    void receiveHost()
-    {
-        if (message != 0)// fixme:檢查是否有host的訊息要請小八改一下
-        {
-            if (cardLeft == 0)
-            {
-                cardLeft = message;
-            }
-            else
-            {
-                cardRight = message;
-            }
-        }
-    }
-
-
     void displayCard()
     {
         int spriteIndex = decode2Index(cardLeft);
@@ -61,9 +38,13 @@ public class main : MonoBehaviour
     {
         if (Input.GetKeyUp("space"))
         {
-            if (cardLeft != message)
-                displayCard();
+            displayCard();
         }
+    }
+
+    void requestHandCard()
+    {
+
     }
 
 

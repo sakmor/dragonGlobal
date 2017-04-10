@@ -1,0 +1,87 @@
+Initialize engine version: 5.6.0f3 (497a0f351392)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 960M (ID=0x139b)
+    Vendor:   NVIDIA
+    VRAM:     3072 MB
+    Driver:   22.21.13.8165
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\sakmo\Documents\GitHub\dragonGlobal\host_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\sakmo\Documents\GitHub\dragonGlobal\host_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\sakmo\Documents\GitHub\dragonGlobal\host_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\sakmo\Documents\GitHub\dragonGlobal\host_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\sakmo\Documents\GitHub\dragonGlobal\host_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\sakmo\Documents\GitHub\dragonGlobal\host_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\sakmo\Documents\GitHub\dragonGlobal\host_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\sakmo\Documents\GitHub\dragonGlobal\host_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+- Completed reload, in  0.019 seconds
+Platform assembly: C:\Users\sakmo\Documents\GitHub\dragonGlobal\host_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\sakmo\Documents\GitHub\dragonGlobal\host_Data\Managed\System.dll (this message is harmless)
+desktop: 3840x2160 60Hz; virtual: 3840x2160 at 0,0
+<RI> Initializing input.
+XInput1_3.dll not found. Trying XInput9_1_0.dll instead...
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 1.757235 ms
+NullReferenceException: Object reference not set to an instance of an object
+  at player.RpcSetPlayer (Int32 id) [0x00000] in <filename unknown>:0 
+  at player.InvokeRpcRpcSetPlayer (UnityEngine.Networking.NetworkBehaviour obj, UnityEngine.Networking.NetworkReader reader) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Networking.NetworkIdentity.HandleRPC (Int32 cmdHash, UnityEngine.Networking.NetworkReader reader) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Networking.ClientScene.OnRPCMessage (UnityEngine.Networking.NetworkMessage netMsg) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Networking.NetworkConnection.InvokeHandler (UnityEngine.Networking.NetworkMessage netMsg) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Networking.LocalClient.ProcessInternalMessages () [0x00000] in <filename unknown>:0 
+  at UnityEngine.Networking.LocalClient.Update () [0x00000] in <filename unknown>:0 
+  at UnityEngine.Networking.NetworkClient.UpdateClients () [0x00000] in <filename unknown>:0 
+  at UnityEngine.Networking.NetworkIdentity.UNetStaticUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+reactor filed to acomplish request with code {1234}, bytesReceived {0}
+reactor filed to acomplish request with code {1234}, bytesReceived {0}
+reactor filed to acomplish request with code {1234}, bytesReceived {0}
+Log: connection {1} has been disconnected by timeout; address {::ffff:127.0.0.1:50862}
+ServerDisconnected due to error: Timeout
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+reactor filed to acomplish request with code {1234}, bytesReceived {0}
+reactor filed to acomplish request with code {1234}, bytesReceived {0}
+reactor filed to acomplish request with code {1234}, bytesReceived {0}
+Log: connection {1} has been disconnected by timeout; address {::ffff:127.0.0.1:49483}
+ServerDisconnected due to error: Timeout
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+reactor filed to acomplish request with code {1234}, bytesReceived {0}
+reactor filed to acomplish request with code {1234}, bytesReceived {0}
+reactor filed to acomplish request with code {1234}, bytesReceived {0}
+Log: connection {1} has been disconnected by timeout; address {::ffff:127.0.0.1:49484}
+ServerDisconnected due to error: Timeout
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+reactor filed to acomplish request with code {1234}, bytesReceived {0}
+reactor filed to acomplish request with code {1234}, bytesReceived {0}
+reactor filed to acomplish request with code {1234}, bytesReceived {0}
+Log: connection {1} has been disconnected by timeout; address {::ffff:127.0.0.1:60618}
+ServerDisconnected due to error: Timeout
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+reactor filed to acomplish request with code {1234}, bytesReceived {0}
+reactor filed to acomplish request with code {1234}, bytesReceived {0}
+reactor filed to acomplish request with code {1234}, bytesReceived {0}
+Log: connection {1} has been disconnected by timeout; address {::ffff:127.0.0.1:51909}
+ServerDisconnected due to error: Timeout
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+reactor filed to acomplish request with code {1234}, bytesReceived {0}
+reactor filed to acomplish request with code {1234}, bytesReceived {0}
+reactor filed to acomplish request with code {1234}, bytesReceived {0}
+Log: connection {1} has been disconnected by timeout; address {::ffff:127.0.0.1:56583}
+ServerDisconnected due to error: Timeout
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
