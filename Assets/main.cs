@@ -6,18 +6,18 @@ public class main : MonoBehaviour
 {
 
     Sprite[] cardsSprite;
-    public int hostMessage;
+    public int message;
     int cardLeft, cardRight;
-    bool waitHost;
+    host host;
     GameObject cardA, cardB, cardC;
 
     // Use this for initialization
     void Start()
     {
-        Debug.Log(waitHost);
+        host = GameObject.Find("host").GetComponent<host>();
         GameObject player01 = GameObject.Find("player01");
-        cardA = GameObject.Find("mycard");
-        // cardB = player01.transform.Find("cardRight").gameObject;
+        cardA = player01.transform.Find("cardLeft").gameObject;
+        cardB = player01.transform.Find("cardRight").gameObject;
         cardsSprite = Resources.LoadAll<Sprite>(@"poker");
 
 
@@ -29,38 +29,30 @@ public class main : MonoBehaviour
         contorl();
         receiveHost();
     }
-    void receiveHost()
+    //waitcode
+    void receiveHost()// fixme:檢查是否有host的訊息要請小八改一下
     {
-    }
-    void actionByhostMessage()
-    {
-        int actionType = hostMessage % 1000;
-        switch (actionType)
+        if (message != 0)
         {
-            case 1:
-                //host發牌
-                break;
-            case 2:
-                break;
-            case 3:
-                break;
+            cardLeft = message;
 
         }
-
     }
-    void receiveCard(int a, int b)
+    void sendHost(int n)
     {
-        cardLeft = a;
-        cardRight = b;
-        displayCard();
+        host.message = n;
+    }
+
+    void receiveCard(int card, int cardValue)
+    {
+
     }
     void displayCard()
     {
         int spriteIndex = decode2Index(cardLeft);
-        GameObject.Find("mycard").transform.position += Vector3.up;
         cardA.GetComponent<SpriteRenderer>().sprite = cardsSprite[spriteIndex];
-        // spriteIndex = decode2Index(cardRight);
-        // cardB.GetComponent<SpriteRenderer>().sprite = cardsSprite[spriteIndex];
+        spriteIndex = decode2Index(cardRight);
+        cardB.GetComponent<SpriteRenderer>().sprite = cardsSprite[spriteIndex];
     }
     int decode2Index(int n)
     {
@@ -71,14 +63,10 @@ public class main : MonoBehaviour
 
     void contorl()
     {
-
         if (Input.GetKeyUp("space"))
         {
-
-        }
-        if (Input.GetKeyUp("f"))
-        {
-
+            sendHost(101);
+            displayCard();
         }
     }
 
