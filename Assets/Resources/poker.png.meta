@@ -1,0 +1,838 @@
+fileFormatVersion: 2
+guid: 6a2eddd9a5b4bf64ea57215b54091f11
+timeCreated: 1491752114
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: club01
+    21300002: club02
+    21300004: club03
+    21300006: club04
+    21300008: club05
+    21300010: club06
+    21300012: club07
+    21300014: club08
+    21300016: club09
+    21300018: club10
+    21300020: club11
+    21300022: club12
+    21300024: club13
+    21300026: diamond01
+    21300028: diamond02
+    21300030: diamond03
+    21300032: diamond04
+    21300034: diamond05
+    21300036: diamond06
+    21300038: diamond07
+    21300040: diamond08
+    21300042: diamond09
+    21300044: diamond10
+    21300046: diamond11
+    21300048: diamond12
+    21300050: diamond13
+    21300052: heart01
+    21300054: heart02
+    21300056: heart03
+    21300058: heart04
+    21300060: heart05
+    21300062: heart06
+    21300064: heart07
+    21300066: heart08
+    21300068: heart09
+    21300070: heart10
+    21300072: heart11
+    21300074: heart12
+    21300076: heart13
+    21300078: spade01
+    21300080: spade02
+    21300082: spade03
+    21300084: spade04
+    21300086: spade05
+    21300088: spade06
+    21300090: spade07
+    21300092: spade08
+    21300094: spade09
+    21300096: spade10
+    21300098: spade11
+    21300100: spade12
+    21300102: spade13
+    21300104: 1629e3f3df28dc71b838906d5ac08861_52
+    21300106: 1629e3f3df28dc71b838906d5ac08861_53
+    21300108: z
+    21300110: 1629e3f3df28dc71b838906d5ac08861_55
+    21300112: 1629e3f3df28dc71b838906d5ac08861_56
+    21300114: 1629e3f3df28dc71b838906d5ac08861_57
+    21300116: 1629e3f3df28dc71b838906d5ac08861_58
+    21300118: 1629e3f3df28dc71b838906d5ac08861_59
+    21300120: 1629e3f3df28dc71b838906d5ac08861_60
+    21300122: 1629e3f3df28dc71b838906d5ac08861_61
+    21300124: 1629e3f3df28dc71b838906d5ac08861_62
+    21300126: 1629e3f3df28dc71b838906d5ac08861_63
+    21300128: 1629e3f3df28dc71b838906d5ac08861_64
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: WebGL
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: club01
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 972.8
+        width: 167.61539
+        height: 243.2
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: club02
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 972.8
+        width: 167.61539
+        height: 243.2
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: club03
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 972.8
+        width: 167.61539
+        height: 243.2
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: club04
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 972.8
+        width: 167.61539
+        height: 243.2
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: club05
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 972.8
+        width: 167.61539
+        height: 243.2
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: club06
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 972.8
+        width: 167.61539
+        height: 243.2
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: club07
+      rect:
+        serializedVersion: 2
+        x: 1002
+        y: 972.8
+        width: 167.61539
+        height: 243.2
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: club08
+      rect:
+        serializedVersion: 2
+        x: 1169
+        y: 972.8
+        width: 167.61539
+        height: 243.2
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: club09
+      rect:
+        serializedVersion: 2
+        x: 1336
+        y: 972.8
+        width: 167.61539
+        height: 243.2
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: club10
+      rect:
+        serializedVersion: 2
+        x: 1503
+        y: 972.8
+        width: 167.61539
+        height: 243.2
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: club11
+      rect:
+        serializedVersion: 2
+        x: 1670
+        y: 972.8
+        width: 167.61539
+        height: 243.2
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: club12
+      rect:
+        serializedVersion: 2
+        x: 1837
+        y: 972.8
+        width: 167.61539
+        height: 243.2
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: club13
+      rect:
+        serializedVersion: 2
+        x: 2004
+        y: 972.8
+        width: 167.61539
+        height: 243.2
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: diamond01
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 729.8
+        width: 167.61539
+        height: 243.2
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: diamond02
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 729.8
+        width: 167.61539
+        height: 243.2
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: diamond03
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 729.8
+        width: 167.61539
+        height: 243.2
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: diamond04
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 729.8
+        width: 167.61539
+        height: 243.2
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: diamond05
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 729.8
+        width: 167.61539
+        height: 243.2
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: diamond06
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 729.8
+        width: 167.61539
+        height: 243.2
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: diamond07
+      rect:
+        serializedVersion: 2
+        x: 1002
+        y: 729.8
+        width: 167.61539
+        height: 243.2
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: diamond08
+      rect:
+        serializedVersion: 2
+        x: 1169
+        y: 729.8
+        width: 167.61539
+        height: 243.2
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: diamond09
+      rect:
+        serializedVersion: 2
+        x: 1336
+        y: 729.8
+        width: 167.61539
+        height: 243.2
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: diamond10
+      rect:
+        serializedVersion: 2
+        x: 1503
+        y: 729.8
+        width: 167.61539
+        height: 243.2
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: diamond11
+      rect:
+        serializedVersion: 2
+        x: 1670
+        y: 729.8
+        width: 167.61539
+        height: 243.2
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: diamond12
+      rect:
+        serializedVersion: 2
+        x: 1837
+        y: 729.8
+        width: 167.61539
+        height: 243.2
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: diamond13
+      rect:
+        serializedVersion: 2
+        x: 2004
+        y: 729.8
+        width: 167.61539
+        height: 243.2
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: heart01
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 486.8
+        width: 167.61539
+        height: 243.2
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: heart02
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 486.8
+        width: 167.61539
+        height: 243.2
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: heart03
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 486.8
+        width: 167.61539
+        height: 243.2
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: heart04
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 486.8
+        width: 167.61539
+        height: 243.2
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: heart05
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 486.8
+        width: 167.61539
+        height: 243.2
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: heart06
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 486.8
+        width: 167.61539
+        height: 243.2
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: heart07
+      rect:
+        serializedVersion: 2
+        x: 1002
+        y: 486.8
+        width: 167.61539
+        height: 243.2
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: heart08
+      rect:
+        serializedVersion: 2
+        x: 1169
+        y: 486.8
+        width: 167.61539
+        height: 243.2
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: heart09
+      rect:
+        serializedVersion: 2
+        x: 1336
+        y: 486.8
+        width: 167.61539
+        height: 243.2
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: heart10
+      rect:
+        serializedVersion: 2
+        x: 1503
+        y: 486.8
+        width: 167.61539
+        height: 243.2
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: heart11
+      rect:
+        serializedVersion: 2
+        x: 1670
+        y: 486.8
+        width: 167.61539
+        height: 243.2
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: heart12
+      rect:
+        serializedVersion: 2
+        x: 1837
+        y: 486.8
+        width: 167.61539
+        height: 243.2
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: heart13
+      rect:
+        serializedVersion: 2
+        x: 2004
+        y: 486.8
+        width: 167.61539
+        height: 243.2
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spade01
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 243.8
+        width: 167.61539
+        height: 243.2
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spade02
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 243.8
+        width: 167.61539
+        height: 243.2
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spade03
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 243.8
+        width: 167.61539
+        height: 243.2
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spade04
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 243.8
+        width: 167.61539
+        height: 243.2
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spade05
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 243.8
+        width: 167.61539
+        height: 243.2
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spade06
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 243.8
+        width: 167.61539
+        height: 243.2
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spade07
+      rect:
+        serializedVersion: 2
+        x: 1002
+        y: 243.8
+        width: 167.61539
+        height: 243.2
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spade08
+      rect:
+        serializedVersion: 2
+        x: 1169
+        y: 243.8
+        width: 167.61539
+        height: 243.2
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spade09
+      rect:
+        serializedVersion: 2
+        x: 1336
+        y: 243.8
+        width: 167.61539
+        height: 243.2
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spade10
+      rect:
+        serializedVersion: 2
+        x: 1503
+        y: 243.8
+        width: 167.61539
+        height: 243.2
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spade11
+      rect:
+        serializedVersion: 2
+        x: 1670
+        y: 243.8
+        width: 167.61539
+        height: 243.2
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spade12
+      rect:
+        serializedVersion: 2
+        x: 1837
+        y: 243.8
+        width: 167.61539
+        height: 243.2
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: spade13
+      rect:
+        serializedVersion: 2
+        x: 2004
+        y: 243.8
+        width: 167.61539
+        height: 243.2
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: z
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 0.80000305
+        width: 167.61539
+        height: 243.2
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
