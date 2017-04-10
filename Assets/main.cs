@@ -30,12 +30,18 @@ public class main : MonoBehaviour
         receiveHost();
     }
     //waitcode
-    void receiveHost()// fixme:檢查是否有host的訊息要請小八改一下
+    void receiveHost()
     {
-        if (message != 0)
+        if (message != 0)// fixme:檢查是否有host的訊息要請小八改一下
         {
-            cardLeft = message;
-
+            if (cardLeft == 0)
+            {
+                cardLeft = message;
+            }
+            else
+            {
+                cardRight = message;
+            }
         }
     }
     void sendHost(int n)
@@ -43,10 +49,6 @@ public class main : MonoBehaviour
         host.message = n;
     }
 
-    void receiveCard(int card, int cardValue)
-    {
-
-    }
     void displayCard()
     {
         int spriteIndex = decode2Index(cardLeft);
@@ -59,14 +61,13 @@ public class main : MonoBehaviour
         return n / 100 * 13 + n % 100;
     }
 
-
-
     void contorl()
     {
         if (Input.GetKeyUp("space"))
         {
             sendHost(101);
-            displayCard();
+            if (cardLeft != message)
+                displayCard();
         }
     }
 

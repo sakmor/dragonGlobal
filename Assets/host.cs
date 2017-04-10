@@ -6,77 +6,120 @@ using UnityEngine;
 //waitcode
 //  101     host抄收自己手上的--第一張牌
 //  102     host抄收自己手上的--第二張牌
+
+//流程
+/*  1--- 發牌
+        
+    2--- 問牌
+
+ */
 public class host : MonoBehaviour
 {
     delegate void voidDelegate();     //宣告一個無參數無回傳的「委派」類型
-    voidDelegate method;              //宣告一個變數是委派
+    voidDelegate afterSendMeassageMethod;              //宣告一個變數是委派
+    voidDelegate mainMissionMethod;
     public int message;
+    int randomNum;
+    int messageState;              //訊息狀態 0:上次訊息已完成 1：正在傳送訊息 2：訊息逾時 3:錯誤回傳
     int waitResponseCode;           //目前我們正在等待的code
     List<int> cardLibrary = new List<int>();
     main main;
 
     int playerNum;
-    Timer aTimer;
+    Timer waitResponseTimer;
+    Timer hostTimer;
     // Use this for initialization
     void Start()
     {
-
         main = GameObject.Find("main").GetComponent<main>();
         createCardsDouble();
-        shuffleCards();
-        displayCardsLibrary();
-        sendnMessage(main, cardLibrary[0], 101, dealCard);    //發第一張牌給main，訊息為牌庫第一張牌碼,抄收碼101，抄收成功執行從牌庫移除牌
-
+        dealHandCard();
+    }
+    void hostMission(object sender, System.Timers.ElapsedEventArgs e)
+    {
+        mainMissionMethod();
     }
     // Update is called once per frame
     void Update()
     {
         refreshDisplayCardsLibrary();
     }
-    void dealCard()
+    void dealHandCard()
     {
-        cardLibrary.RemoveAt(0);
+        dealCardto(main);//todo: 這裡的main是暫時寫得
+        dealCardto(main);//todo: 這裡的main是暫時寫得
+    }
+    void dealCardto(main n)
+    {
+        setRandomNum();
+        sendnMessage(n, cardLibrary[randomNum], 101, removeCardLibrary);
+    }
+    void setMessageState(int n)
+    {
+        messageState = n;
+    }
+    void removeCardLibrary()
+    {
+        cardLibrary.RemoveAt(randomNum);
     }
 
     //傳送訊息（對象,訊息編碼,抄收編碼,抄收後續)
     void sendnMessage(main target, int n, int waitcode, voidDelegate method)
     {
-        target.message = n;     //傳送訊息---fixme:這邊要請小八修改
-        setWaitCode(waitcode);  //設定等待對方回覆的編碼----fixme:等待編碼應該要包含對方的ID ---安全考量
-        setAfterCopyMethod(method);   //試定收到成功抄收碼之後的後續行為
-        waitResponse(500);      //間隔0.5秒等待
+        if (messageState == 0)
+        {
+            setMessageState(1);
+            target.message = n;     //傳送訊息---fixme:這邊要請小八修改
+            setWaitCode(waitcode);  //設定等待對方回覆的編碼----fixme:等待編碼應該要包含對方的ID ---安全考量
+            setAfterSendMeassage(method);   //試定收到成功抄收碼之後的後續行為
+            waitResponse(500);      //間隔0.5秒等待
+        }
     }
     void waitResponse(int n)
     {
-        aTimer = new Timer(n);
-        aTimer.Elapsed += new ElapsedEventHandler(checkMessage);
-        aTimer.AutoReset = true;
-        aTimer.Enabled = true;
+        waitResponseTimer = new Timer(n);
+        waitResponseTimer.Elapsed += new ElapsedEventHandler(waitResponseCheck);
+        waitResponseTimer.AutoReset = true;
+        waitResponseTimer.Enabled = true;
     }
-
-    void setWaitCode(int n)
-    {
-        waitResponseCode = n;
-    }
-    void setAfterCopyMethod(voidDelegate m)
-    {
-        method = m;
-    }
-    void checkMessage(object sender, System.Timers.ElapsedEventArgs e)
+    void waitResponseCheck(object sender, System.Timers.ElapsedEventArgs e) //todo:換成更好的命名
     {
         string t = "still wait";
         if (message == waitResponseCode)
         {
             t = "got correct response";
-            method();
-            stopTimer();
+            setMessageState(0);
+            afterSendMeassageMethod();
+            stopWaitResponseTimer();
         }
         Debug.Log(t);
     }
 
-    void stopTimer()
+    void setRandomNum()
     {
-        aTimer.Enabled = false;
+        randomNum = Random.Range(0, cardLibrary.Count);
+    }
+    void setWaitCode(int n)
+    {
+        waitResponseCode = n;
+    }
+    void setMainMissionMethod(voidDelegate m, int t)
+    {
+        hostTimer = new Timer(t);
+        hostTimer.Elapsed += new ElapsedEventHandler(hostMission);
+        hostTimer.AutoReset = true;
+        hostTimer.Enabled = true;
+        mainMissionMethod = m;
+    }
+    void setAfterSendMeassage(voidDelegate m)
+    {
+        afterSendMeassageMethod = m;
+    }
+
+
+    void stopWaitResponseTimer()
+    {
+        waitResponseTimer.Enabled = false;
     }
     void createCardsDouble()
     {
